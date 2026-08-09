@@ -1,36 +1,25 @@
 # Corporate Financial Analytics & Valuation Portfolio
 
-This repository contains interactive financial reporting dashboards built in Power BI, supported by dynamic DAX measures, general ledger analysis, and full-scope M&A valuation models in Excel.
+This repository contains full-scope financial modelling frameworks (3-Statement, DCF, LBO) in Excel alongside data transformation scripts and DAX measures developed for Power BI financial reporting.
 
 ---
 
-## 📌 Project 1: Infosys Ltd M&A Valuation & Executive Dashboard
+## 📌 Project 1: Infosys Ltd M&A Valuation & Financial Analytics
 
-### 🎯 Overview
-Engineered an interactive capital markets reporting dashboard and full-scope buy-side valuation model (DCF, Comparable Company Analysis, LBO) to evaluate corporate capital structure and financial performance.
+### 🎯 Overview & Objectives
+Engineered a comprehensive financial framework for Infosys Ltd to simulate buy-side M&A structuring, evaluate capital structure efficiency, and track dynamic corporate KPIs. 
 
-### 🛠️ Technical Stack
-* **Business Intelligence:** Power BI Desktop (DAX, Data Transformation, Custom Tooltips)
-* **Financial Modelling:** Advanced Excel (Dynamic 3-Statement, DCF, LBO, Sensitivity Matrices)
-* **Data Ingestion:** Automated data workflows and general ledger reconciliation
+### 🛠️ Core Capabilities Demonstrated
+* **Financial Modelling:** Dynamic 3-Statement Model, Discounted Cash Flow (DCF) Valuation, Leveraged Buyout (LBO) Analysis, Accretion/Dilution Analysis, and Sensitivity Matrices.
+* **Data Analytics & BI:** Power BI Data Transformation (Power Query), General Ledger Reconciliation, and Custom DAX Measure Development.
 
-### 📊 Dashboard Preview
-![Dashboard Preview](Dashboards/infosys_dashboard_preview.png)
-*(Replace 'Dashboards/infosys_dashboard_preview.png' with the exact file path of your uploaded screenshot)*
+### 💡 Key DAX Calculations & Financial Logic
 
-### 💡 Key DAX Measures & Logic Implemented
+#### 1. Dynamic Capital Structure (Debt-to-Equity Ratio)
 ```dax
-// Dynamic Debt-to-Equity Ratio
 Debt_to_Equity = 
 DIVIDE(
     SUM('Balance Sheet'[Total Debt]), 
     SUM('Balance Sheet'[Total Equity]), 
     0
-)
-
-// Rolling 12-Month Cash Flow Forecasting
-Rolling_12M_CashFlow = 
-CALCULATE(
-    SUM('Cash Flow'[Operating Cash Flow]),
-    DATESINPERIOD('Calendar'[Date], MAX('Calendar'[Date]), -12, MONTH)
 )
