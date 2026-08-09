@@ -1,0 +1,95 @@
+1. Profitability & Margin Measures
+// Gross Profit Margin
+Gross_Profit_Margin = 
+DIVIDE(
+    SUM('Income Statement'[Gross Profit]), 
+    SUM('Income Statement'[Revenue]), 
+    0
+)
+
+// EBITDA Calculation (If not explicitly in the dataset)
+EBITDA = 
+SUM('Income Statement'[Operating Income]) + 
+SUM('Income Statement'[Depreciation]) + 
+SUM('Income Statement'[Amortization])
+
+// EBITDA Margin
+EBITDA_Margin = 
+DIVIDE(
+    [EBITDA], 
+    SUM('Income Statement'[Revenue]), 
+    0
+)
+
+// Net Income Margin
+Net_Income_Margin = 
+DIVIDE(
+    SUM('Income Statement'[Net Income]), 
+    SUM('Income Statement'[Revenue]), 
+    0
+)
+
+2. Capital Structure & Solvency
+// Total Debt Calculation
+Total_Debt = 
+SUM('Balance Sheet'[Short Term Debt]) + 
+SUM('Balance Sheet'[Long Term Debt])
+
+// Debt to Equity Ratio
+Debt_to_Equity = 
+DIVIDE(
+    [Total_Debt], 
+    SUM('Balance Sheet'[Total Equity]), 
+    0
+)
+
+// Net Debt Calculation (Important for Enterprise Value)
+Net_Debt = 
+[Total_Debt] - SUM('Balance Sheet'[Cash and Cash Equivalents])
+
+// Interest Coverage Ratio (Can the company pay its debt obligations?)
+Interest_Coverage_Ratio = 
+DIVIDE(
+    SUM('Income Statement'[EBIT]), 
+    SUM('Income Statement'[Interest Expense]), 
+    0
+)
+
+3. Liquidity & Working Capital
+// Current Ratio
+Current_Ratio = 
+DIVIDE(
+    SUM('Balance Sheet'[Total Current Assets]), 
+    SUM('Balance Sheet'[Total Current Liabilities]), 
+    0
+)
+
+// Net Working Capital (NWC)
+Net_Working_Capital = 
+SUM('Balance Sheet'[Total Current Assets]) - 
+SUM('Balance Sheet'[Total Current Liabilities])
+
+// Free Cash Flow (FCF) for DCF Model
+Free_Cash_Flow = 
+SUM('Cash Flow'[Operating Cash Flow]) - 
+SUM('Cash Flow'[Capital Expenditures]
+)
+
+4. Time Intelligence (Trend Analysis)
+// Year-over-Year Revenue Growth
+YoY_Revenue_Growth = 
+VAR Current_Revenue = SUM('Income Statement'[Revenue])
+VAR Previous_Year_Revenue = CALCULATE(
+    SUM('Income Statement'[Revenue]), 
+    SAMEPERIODLASTYEAR('Calendar'[Date])
+)
+RETURN 
+DIVIDE((Current_Revenue - Previous_Year_Revenue), Previous_Year_Revenue, 0)
+
+// Rolling 12-Month Free Cash Flow (Crucial for Valuation)
+Rolling_12M_FCF = 
+CALCULATE(
+    [Free_Cash_Flow],
+    DATESINPERIOD('Calendar'[Date], MAX('Calendar'[Date]), -12, MONTH)
+)
+
