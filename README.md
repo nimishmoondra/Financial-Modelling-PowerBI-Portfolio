@@ -11,26 +11,4 @@ Engineered a comprehensive financial framework for Infosys Ltd to simulate buy-s
 
 ### 🛠️ Core Capabilities Demonstrated
 * **Financial Modelling:** Dynamic 3-Statement Model, Discounted Cash Flow (DCF) Valuation, Leveraged Buyout (LBO) Analysis, Accretion/Dilution Analysis, and Sensitivity Matrices.
-* **Data Analytics & BI:** Power BI Data Transformation (Power Query), General Ledger Reconciliation, and Custom DAX Measure Development.
-
-### 💡 Key DAX Calculations & Financial Logic
-
-#### 1. Dynamic Capital Structure (Debt-to-Equity Ratio)
-```dax
-Debt_to_Equity = 
-DIVIDE(
-    SUM('Balance Sheet'[Total Debt]), 
-    SUM('Balance Sheet'[Total Equity]), 
-    0
-)
-Rolling_12M_CashFlow = 
-CALCULATE(
-    SUM('Cash Flow'[Operating Cash Flow]),
-    DATESINPERIOD('Calendar'[Date], MAX('Calendar'[Date]), -12, MONTH)
-)
-Interest_Coverage_Ratio = 
-DIVIDE(
-    [EBIT], 
-    SUM('Income Statement'[Interest Expense]), 
-    0
-)
+* **Data Analytics & BI:** Power BI Data Transformation (Power Query), General Ledger Reconciliation and Data Visualisation.
