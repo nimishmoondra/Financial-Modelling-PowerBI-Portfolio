@@ -23,3 +23,14 @@ DIVIDE(
     SUM('Balance Sheet'[Total Equity]), 
     0
 )
+Rolling_12M_CashFlow = 
+CALCULATE(
+    SUM('Cash Flow'[Operating Cash Flow]),
+    DATESINPERIOD('Calendar'[Date], MAX('Calendar'[Date]), -12, MONTH)
+)
+Interest_Coverage_Ratio = 
+DIVIDE(
+    [EBIT], 
+    SUM('Income Statement'[Interest Expense]), 
+    0
+)
