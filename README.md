@@ -4,7 +4,7 @@ This repository contains full-scope financial modelling frameworks (3-Statement,
 
 ---
 
-## 📌 Project 1: Infosys Ltd M&A Valuation & Financial Analytics
+## 📌 Project : Infosys Ltd M&A Valuation & Financial Analytics
 
 ### 🎯 Overview & Objectives
 Engineered a comprehensive financial framework for Infosys Ltd to simulate buy-side M&A structuring, evaluate capital structure efficiency, and track dynamic corporate KPIs. 
