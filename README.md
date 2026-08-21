@@ -24,7 +24,8 @@ Welcome to my portfolio. This repository contains fully integrated financial mod
 
 ### 📊 Valuations & Operations
 * **Standalone Valuation:** Derived an intrinsic enterprise value (operating assets) of ₹195,854 Crores via a 5-year DCF, resulting in an implied equity value of ₹516.95 per share.
-* **Financial Forecasting:** Architected a dynamic 5-year forecast tracking revenue CAGR (6.2%) and mapping EBITDA expansion through robust revenue, margin, and cash-flow assumptions.
+* **Financial Forecasting:** Architected a dynamic 5-year forecast projecting Total Revenue to grow at a 6.2% CAGR to reach ₹2,56,609.3 Crores in the final year[cite: 1]. 
+* **Profitability & Cash Flow:** Mapped EBITDA expansion to ₹58,578.9 Crores (22.8% margin) and projected final-year Cash from Operations of ₹49,564.1 Crores[cite: 1].
 
 ---
 ### 🛠️ Technical Frameworks Developed Across Portfolio
