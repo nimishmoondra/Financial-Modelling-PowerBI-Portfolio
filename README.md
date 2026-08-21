@@ -6,7 +6,7 @@ Welcome to my portfolio. This repository contains fully integrated financial mod
 
 ## 📌 1. M&A Transaction Simulation (GS NEOS Model)
 
-![M&A Model Dashboard](GS%20&%20NEOS%20Inv%20M&A%20model%20Dashboard.png)
+![M&A Model Dashboard](GS NEOS M&A model Dashboard.png)
 
 ### 📊 Key Deal Outputs
 * **Transaction Structuring:** Evaluated a $2.25 Billion base case acquisition, structuring a $2.36 Billion use of funds financed via $1.5B Cash and $900M in Stock Consideration.
