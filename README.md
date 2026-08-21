@@ -16,7 +16,7 @@ Welcome to my portfolio. This repository contains fully integrated financial mod
 
 ## 📌 2. Standalone Valuation & 3-Statement Model (Infosys Ltd)
 
-![Infosys 3-Statement Dashboard]([[Infosys%203-statement%20model%20Dashboard.png](https://github.com/nimishmoondra/Financial-Modelling-PowerBI-Portfolio/blob/4db9d4a710667719cdebab3a4ab07a57727425cf/Infosys%203Statement%20DCF%20model%20Dashboard.png)](https://github.com/nimishmoondra/Financial-Modelling-PowerBI-Portfolio/blob/1b231da01e50c7fcd16df132c1df00201a560aa7/Infosys%203Statement%20DCF%20model%20Dashboard.png))
+![Infosys 3-Statement Dashboard](
 
 ### 📊 Valuations & Operations
 * **Standalone Valuation:** Derived an intrinsic enterprise value (operating assets) of ₹195,854 Crores via a 5-year DCF, resulting in an implied equity value of ₹516.95 per share.
