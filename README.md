@@ -1,7 +1,6 @@
 # Corporate Financial Analytics & Valuation Portfolio
 
 ![M&A Model Dashboard - Infosys Ltd](LINK-TO-YOUR-SCREENSHOT-HERE.png)
-*(Note: Upload a high-resolution screenshot of your Excel dashboard to your repo, then replace the link above with the image file path)*
 
 ---
 
