@@ -6,7 +6,7 @@ Welcome to my portfolio. This repository contains fully integrated financial mod
 
 ## 📌 1. M&A Transaction Simulation (GS NEOS Model)
 
-![M&A Model Dashboard]([GS NEOS M&A model Dashboard.png](https://github.com/nimishmoondra/Financial-Modelling-PowerBI-Portfolio/blob/4db9d4a710667719cdebab3a4ab07a57727425cf/GS%20NEOS%20M%26A%20model%20Dashboard.png))
+![M&A Model Dashboard](https://github.com/nimishmoondra/Financial-Modelling-PowerBI-Portfolio/blob/4db9d4a710667719cdebab3a4ab07a57727425cf/GS%20NEOS%20M%26A%20model%20Dashboard.png))
 
 ### 📊 Key Deal Outputs
 * **Transaction Structuring:** Evaluated a $2.25 Billion base case acquisition, structuring a $2.36 Billion use of funds financed via $1.5B Cash and $900M in Stock Consideration.
@@ -16,7 +16,7 @@ Welcome to my portfolio. This repository contains fully integrated financial mod
 
 ## 📌 2. Standalone Valuation & 3-Statement Model (Infosys Ltd)
 
-![Infosys 3-Statement Dashboard](Infosys%203-statement%20model%20Dashboard.png)
+![Infosys 3-Statement Dashboard]([Infosys%203-statement%20model%20Dashboard.png](https://github.com/nimishmoondra/Financial-Modelling-PowerBI-Portfolio/blob/4db9d4a710667719cdebab3a4ab07a57727425cf/Infosys%203Statement%20DCF%20model%20Dashboard.png))
 
 ### 📊 Valuations & Operations
 * **Standalone Valuation:** Derived an intrinsic enterprise value (operating assets) of ₹195,854 Crores via a 5-year DCF, resulting in an implied equity value of ₹516.95 per share.
