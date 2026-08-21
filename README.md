@@ -1,4 +1,4 @@
-[# Corporate Financial Analytics & Valuation Portfolio
+# Corporate Financial Analytics & Valuation Portfolio
 
 This repository contains full-scope financial modelling frameworks (3-Statement, DCF, LBO) in Excel alongside data transformation scripts and DAX measures developed for Power BI financial reporting.
 
